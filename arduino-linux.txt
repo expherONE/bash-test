@@ -1,0 +1,14 @@
+#actualizar el sistema
+sudo apt update && sudo apt upgrade
+#reparar el  preferred application for category terminal emulator kali linux.
+sudo apt install xfce4-settings
+
+
+#visualizar puertos de arduino
+ls -l /dev/ttyUSB*
+ls -l /dev/ttyACM*
+
+#premitir escritura y lectura en puertos
+sudo chmod a+rw /dev/ttyUSB0
+
+
